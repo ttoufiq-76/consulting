@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width:1425px ;
+margin: 0 auto;
+
+}
+#header{
+    background-color: rgb(29, 29, 49);
+    height:900px ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    text-align: center;
+    margin-bottom: 64px;
+
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap:48px ;
+}
+
+nav ul li{
+color:white ;
+
+}
+
+
+.btn-1{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight:600 ;
+    line-height: 200%;
+    color: aliceblue;
+
+}
+.btn-2{
+    padding: 14px 28px;
+    background-color:white ;
+    color: black;
+    font-size: 18px;
+    line-height:200% ;
+    border: none;
+    border-radius:5px;
+    margin-left: 14px;
+}
+/* nav ends */
+
+.left-banner h1{
+    max-width: 644px;
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    line-height:75px ;
+}
+
+.left-banner .p-1{
+    max-width: 540px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.left-banner button{
+
+    padding: 14px 28px;
+    background-color: orange;
+    border-radius:5px ;
+    margin-bottom: 82px;
+}
+
+.left-banner .p-2{
+color: white;
+font-size: 20px;
+line-height: 30px;
+margin-bottom: 71px;
+}
+
+.banner-container{
+    display: flex;
+
+}
+/* banner ends */
+#about{
+    height:916px ;
+  
+    margin-top: 156px;
+    
+}
+
+.about-container{
+    display: flex;
+    gap:102px ;
+ 
+    align-items: center;
+}
+
+.about-right h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom:8px ;
+    color: orange;
+}
+.about-right h3{
+    max-width:584px ;
+    font-size:48px ;
+    font-weight:600 ;
+    letter-spacing: -1%;
+    line-height:62px ;
+    margin-bottom: 20px;
+
+    
+}
+
+.about-right p{
+    max-width:566px ;
+    font-size:18px ;
+    font-weight:400 ;
+    line-height:32px ;
+    margin-bottom: 26px
+
+}
+
+.about-right ul{
+    list-style-type:none ;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 40px;
+    padding-left:0px ;
+    
+}
+
+.about-right button{
+    padding: 14px 28px;
+    border: none;
+    background-color: orange;
+}
+/* about ends */
+.provide-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.provide-container p{
+   max-width: 538px;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+}
+.provide-heading-container h2{
+    color: rgb(41, 38, 38);
+    max-width: 415px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -1%;
+
+}
+.provide-card-container{
+    display: flex;
+}
+
+#provide{
+    height: 951px;
+    padding: 120px 0px 120px 0px;
+     background-image: url("./photo/BG-2.png");
+}
+
+
+/* ===============solution starts==================== */
+
+#solution{
+    height: 951px;
+    padding: 160px 0px;
+}
+.solution-container{
+    display: flex;
+    gap: 75px;
+}
+
+.left-solution h2{
+       max-width: 520px;
+       font-weight: 600;
+       font-size: 48px;
+       line-height: 62px;
+       letter-spacing: -1%;
+       margin-bottom: 20px;
+}
+
+
+.left-solution p{
+       max-width: 523px;
+       font-weight: 400;
+       font-size: 18px;
+       line-height: 32px;
+       margin-bottom: 55px;
+}
+
+.left-solution button{
+       padding: 14px 28px;
+       background-color: orange;
+       border: none;
+       margin-bottom: 55px;
+}
+
+
+.photo-invest-container{
+    display: flex;
+    gap: 76px;
+}
+.photo-invest-container .invest-1 h3{
+    max-width: 282.64px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.photo-invest-container .invest-1 p{
+    max-width: 265px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+
+.photo-invest-container .invest-2 h3{
+    max-width: 282.64px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.photo-invest-container .invest-2 p{
+    max-width: 265px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+
+/* ============solution ends=================== */
+
+#our-team{
+    height: 401px;
+    background-image: url("./photo/BG\ \(1\).png");
+    position: relative;
+}
+
+.our-team-container{
+    text-align: center;
+}
+
+.our-team-container h4{
+    color: orange;
+    margin-bottom: 8px;
+    padding-top: 80px;
+}
+
+.our-team-container h2{
+    color: white;
+}
+
+.team-photo{
+    position: absolute;
+    top: 50%;
+   display: flex;
+   gap: 30px;
+}
+
+/* team ends */
+
+.digital-container{
+    display: flex;
+    gap: 111px;
+    
+}
+#digital{
+    height:1200px ;
+    padding:350px 0px 140px 0px;
+}
+
+.right-digital h2{
+    max-width: 590px;
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 600;
+    margin-bottom:49px ;
+}
+/* digital ends */
+
+.trusted-container{
+    display: flex;
+    gap:190px ;
+}
+#trusted{
+    height: 432px;
+    background-image: url("./photo/trust\ bg.png");
+    padding: 110px 0px;
+}
+
+.trusted-count{
+    display: flex;
+    gap: 120px;
+
+    margin-bottom:18px ;
+}
+
+.trusted-img{
+    display: flex;
+    gap: 30px;
+}
+
+.btn-trust{
+    background-color: orange;
+    padding: 14px 28px;
+    color: white;
+    border: none;
+    border-radius:5px ;
+}
+.left-trusted h2{
+    margin-bottom:40px ;
+    max-width:510px ;
+    font-size: 38px;
+    font-weight: 600;
+    line-height:54px ;
+    color: white;
+
+}
+
+.trusted-count h2{
+font-weight: 600;
+font-size: 60px;
+line-height: 58px;
+margin-bottom: 24px;
+color: white;
+}
+
+.trusted-count p{
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+color: white;
+}
+/* trust ends */
+#customer{
+    height: 960px;
+    padding: 120px 0px;
+background-color: #FAFAFA;
+}
+
+.customer-container{
+    display: flex;
+    gap: 67px;
+    align-items: center;
+}
+
+
+.left-customer h2{
+margin-bottom: 60px;
+max-width: 642px;
+font-size: 48px;
+font-weight:600 ;
+line-height:62px ;
+}
+
+.wilson{
+    max-width:783px ;
+    height:417px ;
+    background-color:white;
+    padding: 50px 60px;
+
+}
+
+.left-customer p{
+max-width: 652px;
+font-size: 24px;
+font-weight:400 ;
+line-height:46px ;
+margin-bottom: 51px;
+
+}
+
+/* customer ends */
+.img-blog{
+    display: flex;
+    gap: 35px;
+}
+.new-blog h2,h4{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#blog{
+    height: 950px;
+    padding: 130px 0px;
+}
+.new-blog h4{
+    color: coral;
+    margin-bottom: 8px;
+}
+.new-blog h2{
+    color: black;
+    font-size:48px ;
+    font-weight:600 ;
+    line-height: 62px;
+
+
+}
+/* blog ends */
+#footer{
+    height: 472px;
+    padding:110px 0px 60px 0px ;
+}
+
+#footer ul {list-style-type:none ;
+
+}
